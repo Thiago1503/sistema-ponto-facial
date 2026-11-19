@@ -1,0 +1,23 @@
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Dependências do frontend
+node_modules/
+frontend/node_modules/
+
+# Arquivos gerados
+__pycache__/
+*.pyc
+frontend/dist/
+
+# Banco de dados local
+backend/ponto.db
+
+# Fotografias cadastradas
+backend/faces/
+
+# Arquivos temporários
+*.log
+.env
+.env.*
